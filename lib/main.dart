@@ -140,7 +140,7 @@ void onStart(ServiceInstance service) async {
 }
 
 Future<String> fetchData() async {
-  const String apiKey = 'E184FVwWqSEGkcWyFFOsYjDxR0d07hOxhT6z9GxC';
+  const String apiKey = '';
   const String url = 'https://api.nasa.gov/planetary/apod?api_key=$apiKey';
 
   try {
