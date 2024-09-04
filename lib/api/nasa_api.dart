@@ -8,7 +8,7 @@ final NASAApiProvider = Provider(
 );
 
 class NASAApi {
-  static const String _apiKey = 'E184FVwWqSEGkcWyFFOsYjDxR0d07hOxhT6z9GxC';
+  static const String _apiKey = '';
 
   Future<ApodModel> fetchDailyPicture() async {
     const url = 'https://api.nasa.gov/planetary/apod?api_key=$_apiKey';
